@@ -27,22 +27,21 @@
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
-//  Console.WriteLine ("Введите число");
+// Console.WriteLine ("Введите число");
+// int num=Convert.ToInt32(Console.ReadLine ());
 
-// int num1=Convert.ToInt32(Console.ReadLine ());
-
-// while (num1>999)
+// if (num/100 ==0)
 // {
-//     int num2=num1/10;
-//     int num3=num2%10;   
+//     Console.WriteLine ("Третьей цифры нет"); 
 // }
-// if (num1<100)
-// {
-//      Console.WriteLine ("Третьей цифры нет");
-//    }
 // else
 // {
-//     Console.WriteLine (num3);
+//    while (num<99 || num>1000)
+//     {
+//         num=num/10;
+//     }
+
+//     Console.WriteLine (num%10);
 // }
 // _______________________________________________________________
 
@@ -52,23 +51,22 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
-Console.WriteLine ("Введите число");
+// Console.WriteLine ("Введите число");
 
-int num=Convert.ToInt32(Console.ReadLine ());
-{
-    if (num>0 && num<8)
-    {
-        if (num == 7 || num == 6)
-        {
-            Console.Write("Это выходной день");
-        }
-    else
-        {
-        Console.Write("Это рабочий день");
-        }
-    }
-    else 
-        {
-        Console.Write("Пожалуйста,введите число из диапазона от 1 до 7");
-        }
-}
+// int num=Convert.ToInt32(Console.ReadLine ());
+
+//     if (num>0 && num<8)
+//     {
+//         if (num == 7 || num == 6)
+//         {
+//             Console.Write("Это выходной день");
+//         }
+//     else
+//         {
+//         Console.Write("Это рабочий день");
+//         }
+//     }
+//     else 
+//         {
+//         Console.Write("Пожалуйста,введите число из диапазона от 1 до 7");
+//         }
